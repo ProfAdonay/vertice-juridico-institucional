@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vértice Jurídico - Advocacia Empresarial, Trabalhista e Consultoria Preventiva.">
+  <title>Vértice Jurídico | Advocacia e Consultoria Estratégica</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="container cabecalho-conteudo">
+      <a href="#inicio" class="logotipo">Vértice<span>Jurídico</span></a>
+      <nav aria-label="Navegação principal">
+        <ul class="menu-lista">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#areas">Áreas de Atuação</a></li>
+          <li><a href="#diferenciais">O Escritório</a></li>
+          <li><a href="#consulta" class="btn-nav-contato">Agendar Consulta</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-texto">
+          <span class="selo-institucional">OAB/PE — Atuação Nacional</span>
+          <h1>Segurança jurídica e estratégia para decisões empresariais</h1>
+          <p>Assessoria jurídica preventiva e contenciosa com atendimento personalizado, transparência processual e foco na proteção patrimonial do cliente.</p>
+          <div class="hero-acoes">
+            <a href="#consulta" class="btn-dourado">Solicitar Análise de Caso</a>
+            <a href="#areas" class="btn-contorno">Conhecer Áreas</a>
+          </div>
+        </div>
+
+        <aside class="hero-painel">
+          <h2>Atendimento Consultivo</h2>
+          <p>Agende uma reunião presencial ou por videoconferência diretamente com nossos sócios.</p>
+          <ul class="lista-compromissos">
+            <li>Sigilo absoluto e ética profissional</li>
+            <li>Relatórios periódicos de andamento</li>
+            <li>Pareceres técnicos objetivos</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="areas" class="secao-clara">
+      <div class="container">
+        <header class="cabecalho-secao">
+          <h2>Áreas de Atuação</h2>
+          <p>Soluções jurídicas estruturadas para empresas, empreendedores e pessoas físicas.</p>
+        </header>
+
+        <div class="grade-areas">
+          <article class="cartao-area">
+            <h3>Direito Empresarial</h3>
+            <p>Elaboração e revisão de contratos comerciais, estruturação societária, governança corporativa e prevenção de passivos.</p>
+          </article>
+
+          <article class="cartao-area">
+            <h3>Direito Trabalhista</h3>
+            <p>Consultoria preventiva para departamentos de RH, compliance trabalhista e defesa estratégica em reclamações judiciais.</p>
+          </article>
+
+          <article class="cartao-area">
+            <h3>Direito Civil e Contratos</h3>
+            <p>Responsabilidade civil, cobranças judiciais e extrajudiciais, regularização imobiliária e planejamento sucessório.</p>
+          </article>
+
+          <article class="cartao-area">
+            <h3>Direito Digital e LGPD</h3>
+            <p>Adequação à Lei Geral de Proteção de Dados, termos de uso para plataformas digitais e contratos de tecnologia.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="diferenciais" class="secao-escura">
+      <div class="container">
+        <header class="cabecalho-secao cabecalho-secao-claro">
+          <h2>Por que escolher a Vértice Jurídico</h2>
+          <p>Atuação pautada pelo rigor técnico e pela clareza na comunicação com o cliente.</p>
+        </header>
+
+        <div class="grade-diferenciais">
+          <div class="item-diferencial">
+            <strong>15+ Anos</strong>
+            <p>De experiência consolidada na advocacia consultiva e tribunais superiores.</p>
+          </div>
+          <div class="item-diferencial">
+            <strong>100% Digital</strong>
+            <p>Acompanhamento transparente de processos e atendimento ágil em todo o país.</p>
+          </div>
+          <div class="item-diferencial">
+            <strong>Foco Preventivo</strong>
+            <p>Identificação antecipada de riscos legais antes que se tornem litígios onerosos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="consulta" class="secao-clara">
+      <div class="container formulario-wrapper">
+        <header class="cabecalho-secao">
+          <h2>Agende uma Consulta Inicial</h2>
+          <p>Descreva brevemente sua demanda e nossa secretaria retornará em até 2 horas úteis.</p>
+        </header>
+
+        <form class="formulario-juridico" action="#" method="post">
+          <div class="campo-form">
+            <label for="nome">Nome Completo ou Empresa</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: Carlos Mendes / Tech Solutions Ltda" required>
+          </div>
+
+          <div class="campo-form">
+            <label for="email">E-mail Corporativo ou Pessoal</label>
+            <input type="email" id="email" name="email" placeholder="contato@empresa.com.br" required>
+          </div>
+
+          <div class="campo-form">
+            <label for="area">Área Relacionada</label>
+            <select id="area" name="area" required>
+              <option value="">Selecione a área jurídica</option>
+              <option value="empresarial">Direito Empresarial / Societário</option>
+              <option value="trabalhista">Direito Trabalhista</option>
+              <option value="civil">Direito Civil e Contratos</option>
+              <option value="digital">Direito Digital e LGPD</option>
+            </select>
+          </div>
+
+          <div class="campo-form">
+            <label for="resumo">Resumo da Demanda</label>
+            <textarea id="resumo" name="resumo" rows="4" placeholder="Informe o contexto geral da sua solicitação..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-dourado btn-bloco">Enviar Solicitação</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-conteudo">
+      <div>
+        <h3>Vértice Jurídico — Sociedade de Advogados</h3>
+        <p>Av. Agamenon Magalhães, 2900, Sala 804 — Recife/PE | Seg. a Sex., 08h30 às 18h.</p>
+      </div>
+      <p class="direitos">© 2026 Vértice Jurídico. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
